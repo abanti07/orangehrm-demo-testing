@@ -1,5 +1,10 @@
+package testrunner;
+
+import config.SetUp;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pages.DashBoardPage;
+import pages.LoginPage;
 
 public class DashBoardRunner extends SetUp {
     @BeforeTest
